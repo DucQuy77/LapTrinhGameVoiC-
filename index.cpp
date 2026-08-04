@@ -7,7 +7,7 @@ int main() {
     sf::RenderWindow window(sf::VideoMode(800, 600), "Sprite Animation");
     window.setFramerateLimit(60);
 
-    // Load Sprite Sheet
+    
     sf::Texture texture;
     if (!texture.loadFromFile("assets/player.png"))
     {
