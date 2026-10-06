@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
     // Tạo cửa sổ game
-    sf::RenderWindow window(sf::VideoMode(800, 800), "Sprite Animation");
+    sf::RenderWindow window(sf::VideoMode(800, 600), "Sprite Animation");
     window.setFramerateLimit(60);
 
     
