@@ -11,7 +11,7 @@ int main() {
     sf::Texture texture;
     if (!texture.loadFromFile("assets/player.png"))
     {
-        return 0;
+        return;
     }
 
     sf::Sprite player(texture);
